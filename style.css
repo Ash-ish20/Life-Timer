@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-color: #4e2ae0;
+    height: 100vh;
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    place-items: center ;
+    height: 100vh;
+}
+
+.container h1{
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.setting{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
